@@ -7,7 +7,7 @@ var hostname = process.env.HOSTNAME || '50.16.118.249';
 var port = 8080;
 
 app.get("/", function (req, res) {
-    res.redirect("index.html")
+    res.redirect("https://github.com/VIshboy19/Rough/blob/main/A4/code/public/index.html")
 });
 
 app.use(methodOverride());
