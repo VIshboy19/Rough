@@ -1,0 +1,54 @@
+vishr@VishrutPC MINGW64 /c
+$ cd Users
+
+vishr@VishrutPC MINGW64 /c/Users
+$ cd vishr\OneDrive\Desktop
+bash: cd: vishrOneDriveDesktop: No such file or directory
+
+vishr@VishrutPC MINGW64 /c/Users
+$ cd vishr\\OneDrive\\Desktop
+
+vishr@VishrutPC MINGW64 ~/OneDrive/Desktop
+$ git clone  https://github.com/VIshboy19/dontuse
+Cloning into 'dontuse'...
+warning: You appear to have cloned an empty repository.
+
+vishr@VishrutPC MINGW64 ~/OneDrive/Desktop
+$ cd dontuse
+
+vishr@VishrutPC MINGW64 ~/OneDrive/Desktop/dontuse (main)
+$ git add *
+
+vishr@VishrutPC MINGW64 ~/OneDrive/Desktop/dontuse (main)
+$ git commit -m "blah blah "
+[main (root-commit) 72f086d] blah blah
+ 15 files changed, 64 insertions(+)
+ create mode 100644 123.pdf
+ create mode 100644 456.pdf
+ create mode 100644 7.pdf
+ create mode 100644 8.pdf
+ create mode 100644 9.pdf
+ create mode 100644 Assignment 3.md
+ create mode 100644 I first used the valley cut notion to create a foldable hingee.docx
+ create mode 100644 Vishrut Resume 2.docx
+ create mode 100644 Vishrut Resume 22.docx
+ create mode 100644 Vishrut_chawla_resume.pdf
+ create mode 100644 assignment 1 - foldable robotics.pdf
+ create mode 100644 assignment 1 - foldable robotics.pdf.docx
+ create mode 100644 ff.docx
+ create mode 100644 wef.docx
+ create mode 100644 www.inspireuplift.avif
+
+vishr@VishrutPC MINGW64 ~/OneDrive/Desktop/dontuse (main)
+$ git push
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (17/17), 18.52 MiB | 5.34 MiB/s, done.
+Total 17 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/VIshboy19/dontuse
+ * [new branch]      main -> main
+
+vishr@VishrutPC MINGW64 ~/OneDrive/Desktop/dontuse (main)
